@@ -27,3 +27,9 @@ jobs:
 
       - name: Run Playwright tests
         run: npm test
+
+if: failure()
+    uses: actions/upload-artifact@v3
+    with:
+      name: trace.zip
+      path: '**/trace.zip'
