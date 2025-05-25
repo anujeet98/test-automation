@@ -1,0 +1,14 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "description": "test-automation readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.52.0"
+  }
+}
